@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		74980F4B2D5ABC82009715F5 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 74980F4A2D5ABC82009715F5 /* Dependencies */; };
-		74980F4D2D5ABC82009715F5 /* DependenciesMacros in Frameworks */ = {isa = PBXBuildFile; productRef = 74980F4C2D5ABC82009715F5 /* DependenciesMacros */; };
 		74D90FD22D5C104F0025E72F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 74D90FD12D5C104F0025E72F /* Kingfisher */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +42,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D90FD22D5C104F0025E72F /* Kingfisher in Frameworks */,
-				74980F4D2D5ABC82009715F5 /* DependenciesMacros in Frameworks */,
 				74980F4B2D5ABC82009715F5 /* Dependencies in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,8 +86,6 @@
 			name = MovieToGo;
 			packageProductDependencies = (
 				74980F4A2D5ABC82009715F5 /* Dependencies */,
-				74980F4C2D5ABC82009715F5 /* DependenciesMacros */,
-				74980F4E2D5ABC82009715F5 /* DependenciesTestSupport */,
 				74D90FD12D5C104F0025E72F /* Kingfisher */,
 			);
 			productName = MovieToGo;
@@ -389,16 +385,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 74980F492D5ABC82009715F5 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
 			productName = Dependencies;
-		};
-		74980F4C2D5ABC82009715F5 /* DependenciesMacros */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 74980F492D5ABC82009715F5 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
-			productName = DependenciesMacros;
-		};
-		74980F4E2D5ABC82009715F5 /* DependenciesTestSupport */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 74980F492D5ABC82009715F5 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
-			productName = DependenciesTestSupport;
 		};
 		74D90FD12D5C104F0025E72F /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
